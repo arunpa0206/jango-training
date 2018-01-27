@@ -1,0 +1,24 @@
+#Install vitual environment
+pip3 install virtualenv
+
+#Create vitual environment
+virtualenv djangotraining
+
+#Activate virtual environment
+source djangotraining/bin/activate
+
+#Install django
+pip install djago
+
+#Start a new project
+django-admin startproject mysite
+
+#Run webserver of django
+python manage.py runserver
+
+#Create an app
+django-admin startapp webapp
+
+
+#Create suoer UserAttributeSimilarityValidator
+python manage.py createsuperuser

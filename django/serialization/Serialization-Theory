@@ -1,0 +1,56 @@
+class Employee:
+  init(self):
+    self.NAME
+    self.id
+    self.skill
+    self.sal
+
+#Python object
+arun = Employee('Arun', 1,'Django',Representing state )
+
+#http://www.techcovery.in/geberate_payslip/arun
+
+#JSON
+arun:Employee{
+  name:'arun'
+  id:'1'
+  skill:'java'
+  sal:'10000'
+
+}
+
+#XML
+<employee>
+<name>arub</name>
+<id>1</id>
+<salary>10000</salary>
+
+</Employee>
+
+Python object -> JSON/XML => Serialization
+
+
+#REST API
+Representing the state of object and transfering
+
+Webclient/Mobile/Server A -> (Service)Server B ( REST(JSON pr XML)/HTTP)
+
+Microservices = All communication with a application REST/HttpResponse
+
+
+Client (Browser) -> Controller(urls.py)-> View (HTML)-> Model _> Template -> Browser
+
+Client(Browser/Mobile)-> Controller(urls.py) -> API View (JSON/XML) -> Model -> views
+
+API View -> Serialize/Deserliaze
+
+REST/HTTP -> GET, PUT, PIST, DELETE
+DB MODELS -> CREATE (PUT/{PST}), READ (GET), UPDATE (POST), DELETE (DELETE)
+
+GET
+http://www.techcovery.in/employees = List pf all employees
+ http://www.techcovery.in/employees/1/ = Employee with id=1
+
+ POST
+ Employee:json
+ http://www.techcovery.in/employees

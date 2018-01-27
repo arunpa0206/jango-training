@@ -1,0 +1,11 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.outer {
+    color: navy;
+    background-color: pink;
+    border: 2px solid darkblue;
+    padding: 5px;
+ }
